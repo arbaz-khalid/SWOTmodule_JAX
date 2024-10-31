@@ -1,4 +1,5 @@
 # SWOTmodule_JAX
+Removal of noise from SWOT images
 
 # Introduction
 This repository contains a Python implementation of a denoising algorithm for Sea Surface Height (SSH) data, particularly from SWOT (Surface Water and Ocean Topography) satellite observations. The algorithm uses the LBFGS optimization method to minimize a cost function that includes Laplacian and third-order regularization terms. This method helps to remove noise from SSH images, improving data quality for further analysis.
